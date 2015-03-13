@@ -63,3 +63,11 @@ table {
   transition: all 400ms ease;
   margin-top: -8px;
   margin-bottom: 8px; }
+
+/* line 5, ../scss/elements/_item_border.scss */
+.b-item-border:hover .b-item-border__content {
+  background-color: #eeeeff;
+  margin: -15px;
+  padding: 13px;
+  border: 2px solid blue;
+  border-radius: 5px; }

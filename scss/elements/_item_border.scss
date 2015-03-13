@@ -1,0 +1,13 @@
+$item-pop-value:8px;
+.b-item-border{
+
+  &:hover{
+    .b-item-border__content{
+      background-color: #eeeeff;
+      margin:-15px;
+      padding:13px;
+      border:2px solid blue;
+      border-radius: 5px;
+    }
+  }
+}
