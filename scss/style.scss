@@ -1,0 +1,11 @@
+@import "compass/utilities/general/clearfix";
+
+@import "reset";
+.lib-inline-list{
+  @include clearfix();
+  &>li{
+    float:left
+  }
+}
+
+@import "elements/item_pop";

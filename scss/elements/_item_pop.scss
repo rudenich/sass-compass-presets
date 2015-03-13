@@ -1,0 +1,10 @@
+$item-pop-value:8px;
+.b-item-pop{
+  &:hover{
+    .b-item-pop__content{
+      transition: all 400ms ease;
+      margin-top:-($item-pop-value);
+      margin-bottom: $item-pop-value;
+    }
+  }
+}
